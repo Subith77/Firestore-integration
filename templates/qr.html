@@ -1,0 +1,15 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Your QR Code</title>
+</head>
+<body>
+    <h2>QR Code Generated</h2>
+    <p>Your Firebase document ID (key): {{ key }}</p>
+    <img src="data:image/png;base64,{{ qr_code }}" alt="QR Code" />
+    <br/><br/>
+    <a href="{{ url_for('index') }}">Submit another</a>
+</body>
+</html>

@@ -1,0 +1,15 @@
+Download all these files too
+flask
+firebase-admin
+qrcode
+pillow
+pyzbar
+
+in simple words, copy this code and paste in your command prompt
+
+pip install flask firebase-admin qrcode pillow pyzbar
+
+
+
+cred = credentials.Certificate("F:/Firebase integration/serviceAccountKey.json") <-- replace with your json file location
+doc_ref = db.collection('users').document(doc_id)  <-- replace   'users' with your database name 
